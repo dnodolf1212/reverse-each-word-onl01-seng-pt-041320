@@ -11,5 +11,11 @@ end
 
 def reverse_each_word_collect(string)
   array = string.split(" ")
-  array.each do |x|
+  array2 = []
+  
+  array.collect  |x|
+    array2 << x.reverse 
+  end
+  array2.join(" ")
+end
     
