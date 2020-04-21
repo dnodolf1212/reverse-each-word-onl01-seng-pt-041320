@@ -10,4 +10,6 @@ def reverse_each_word(string)
 end
 
 def reverse_each_word_collect(string)
-  
+  array = string.split(" ")
+  array.each do |x|
+    
